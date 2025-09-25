@@ -16,14 +16,13 @@ Ketika tombol Update ditekan, JDialog terbuka dengan field yang sudah berisi dat
 Menekan tombol Delete akan menampilkan dialog konfirmasi. Jika pengguna menyetujui, data diproses dengan query DELETE dan dihapus dari database.
 
 # Alur Penggunaan CRUD :
-- Insert
-  
+- Insert :<br>
 Klik tombol Insert → dialog input muncul → data disimpan → data baru masuk ke tabel + database.
-- Update (tanpa memilih data)
+- Update (tanpa memilih data) : 
 Klik tombol Update → tidak ada baris dipilih → muncul pesan peringatan.
-- Update (dengan memilih data)
+- Update (dengan memilih data) : 
 Klik tombol Update → baris data dipilih → dialog edit terbuka dengan data lama → data disimpan → pesan “Data berhasil diperbarui!” tampil.
-- Delete (tanpa memilih data)
+- Delete (tanpa memilih data) : 
 Klik tombol Delete → tidak ada baris dipilih → muncul pesan peringatan.
-- Delete (dengan memilih data)
+- Delete (dengan memilih data) : 
 Klik tombol Delete → baris data dipilih → dialog konfirmasi tampil → pilih Yes → data terhapus dari tabel + database.
