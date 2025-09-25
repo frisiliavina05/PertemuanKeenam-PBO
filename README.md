@@ -17,6 +17,7 @@ Menekan tombol Delete akan menampilkan dialog konfirmasi. Jika pengguna menyetuj
 
 # Alur Penggunaan CRUD :
 - Insert
+  
 Klik tombol Insert → dialog input muncul → data disimpan → data baru masuk ke tabel + database.
 - Update (tanpa memilih data)
 Klik tombol Update → tidak ada baris dipilih → muncul pesan peringatan.
