@@ -5,7 +5,7 @@ Pada praktikum ke 6 ini dapat mengimplementasikan operasi CRUD (Create, Read, Up
    
 CRUD  (Create, Read, Update, Delete) adalah operasi dasar pada basis data. Dalam Java, implementasinya dilakukan dengan Java Swing sebagai GUI dan JDBC untuk koneksi database (misalnya PostgreSQL), dengan pemisahan peran antara JFrame Form sebagai tampilan utama dan JDialog untuk input atau konfirmasi
 
-# Implementasi CRUD :
+Implementasi CRUD : <br>
 - Create (Tambah Data) : <br>
 Menekan tombol Insert pada Form utama akan memunculkan JDialog untuk memasukkan data baru. Setelah disimpan, data dikirim ke database menggunakan perintah INSERT.
 - Read (Lihat Data) : <br>
@@ -15,7 +15,7 @@ Ketika tombol Update ditekan, JDialog terbuka dengan field yang sudah berisi dat
 - Delete (Hapus Data) : <br>
 Menekan tombol Delete akan menampilkan dialog konfirmasi. Jika pengguna menyetujui, data diproses dengan query DELETE dan dihapus dari database.
 
-# Alur Penggunaan CRUD :
+Alur Penggunaan CRUD : <br>
 - Insert <br>
 Klik tombol Insert → dialog input muncul → data disimpan → data baru masuk ke tabel + database.
 - Update (tanpa memilih data) <br>
