@@ -2,7 +2,8 @@
 Pada praktikum ke 6 ini dapat mengimplementasikan operasi CRUD (Create, Read, Update, Delete) dengan memanfaatkan Java Swing sebagai antarmuka grafis dan JDBC untuk terhubung ke database PostgreSQL. Desain aplikasi dipisahkan antara JFrame sebagai form utama untuk menampilkan data sekaligus navigasi, serta JDialog yang digunakan untuk proses input, pembaruan, dan konfirmasi penghapusan data.
 
 1. CRUD menggunakan Java Form
-   CRUD  (Create, Read, Update, Delete) adalah operasi dasar pada basis data. Dalam Java, implementasinya dilakukan dengan Java Swing sebagai GUI dan JDBC untuk koneksi database (misalnya PostgreSQL), dengan pemisahan peran antara JFrame Form sebagai tampilan utama dan JDialog untuk input atau konfirmasi
+   
+CRUD  (Create, Read, Update, Delete) adalah operasi dasar pada basis data. Dalam Java, implementasinya dilakukan dengan Java Swing sebagai GUI dan JDBC untuk koneksi database (misalnya PostgreSQL), dengan pemisahan peran antara JFrame Form sebagai tampilan utama dan JDialog untuk input atau konfirmasi
 
 Implementasi CRUD :
 - Create (Tambah Data)
